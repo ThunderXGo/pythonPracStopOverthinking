@@ -7,3 +7,6 @@ def funny(theInt):
     else:
         print("you win")
 
+alright = random.randint(1, 6)
+
+funny(alright)
