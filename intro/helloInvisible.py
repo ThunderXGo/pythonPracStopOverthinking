@@ -28,8 +28,8 @@ But not this one
 Mark your program.
 """
 
-line1 = 'Roses are red'
-line2 = 'Violets are blue'
+line1 = 'Fire trucks are red'
+line2 = 'Police cars are blue'
 
 print(line1)
 print(line2)
