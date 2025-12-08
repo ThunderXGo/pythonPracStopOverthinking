@@ -1,33 +1,38 @@
 """
-Loudspeaker announcements are often repeated to make sure people hear them!
-
-Here's a program that repeats announcements for you.
+You're writing some new versions of the poem Roses are red.
 
 1.
-Run the program to see what it does.
-
-The message variable is used twice to repeat the announcement.
+Click Run to see what you have so far.
 
 2.
-Update the program so that it announces something different:
+Change the line1 and line2 variables to try out some new lines:
 
-Free ice cream!
-I repeat:
-Free ice cream!
-​
-You'll need to update the message variable, by setting it to the new value!
+The first line should say 'Fire trucks are red'
+
+The second line should say 'Police cars are blue'
 
 3.
-Mark your program, fix any errors, run and mark it again.
+Run your program again. It should print the following:
 
-Comments
-The red lines starting with a hash (#) are comments. They are ignored when you run the code.
+Fire trucks are red
+Police cars are blue
+Sugar is sweet
+And so are you
+​
+Fire trucks are red
+Police cars are blue
+Most poems rhyme
+But not this one
+​
+4.
+Mark your program.
 """
 
-# Set the message:
-message = "Free ice cream!"
+line1 = 'Roses are red'
+line2 = 'Violets are blue'
 
-# Print the announcement:
-print(message)
-print('I repeat:')
-print(message)
+print(line1)
+print(line2)
+print('Sugar is sweet')
+print('And so are you')
+print()
