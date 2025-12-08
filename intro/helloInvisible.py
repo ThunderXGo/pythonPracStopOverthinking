@@ -25,7 +25,7 @@ It should print:
 1.0
 """
 
-seconds = '3600'
+seconds = 3600
 
 hours = seconds / 60 / 60
 
