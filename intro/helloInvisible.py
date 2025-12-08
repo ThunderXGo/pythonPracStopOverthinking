@@ -1,32 +1,32 @@
 """
-You're cycling the Munda Biddi Trail.
+Someone's written a program to convert 3600 seconds to hours.
 
-Let's work out how far you still need to go! We'll use these numbers:
-
-The trail is 1000 kilometres long;
-You cycle 70 kilometres a day;
-You have been cycling for 5 days so far.
-We've started the program for you.
+It's not working! It's got a bug (an error in the program).
 
 1.
-The days variable is set to 0. It needs the correct value. Type in how many days you've been cycling so far.
+Run the program and see what happens.
+
+Python gives a TypeError. What do you think this means?
+
+Remember, numbers and strings are different types of data. A TypeError says something in our program might be the wrong type.
 
 2.
-Set the km_left variable to calculate:
+Fix the bug!
 
-total kilometres − (kilometres per day × days)
+The error happens when we try to divide seconds by 60.
+
+That's because the seconds variable stores a string instead of a number. Can you fix it by changing only the first line?
 
 3.
-The print statement prints the km_left variable. Click run to see if it prints the correct answer:
+Run the program again and see if it works.
 
-650
-4.
-Don't forget to mark your program!
+It should print:
+
+1.0
 """
 
-total_km = 1000
-km_per_day = 70
-days = 5
-km_left = total_km - (km_per_day * days)
+seconds = '3600'
 
-print(km_left)
+hours = seconds / 60 / 60
+
+print(hours)
