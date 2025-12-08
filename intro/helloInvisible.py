@@ -25,7 +25,7 @@ The red lines starting with a hash (#) are comments. They are ignored when you r
 """
 
 # Set the message:
-message = "Bart Simpson to the principal's office!"
+message = "Free ice cream!"
 
 # Print the announcement:
 print(message)
