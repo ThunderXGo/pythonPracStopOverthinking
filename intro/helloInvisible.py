@@ -26,7 +26,7 @@ Don't forget to mark your program!
 
 total_km = 1000
 km_per_day = 70
-days = 0
-km_left = total_km - (km_per_day )
+days = 5
+km_left = total_km - (km_per_day * days)
 
 print(km_left)
