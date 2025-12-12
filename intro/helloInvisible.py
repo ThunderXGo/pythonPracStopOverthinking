@@ -42,5 +42,5 @@ Now try out your own examples! When you're happy mark your program to check it.
 """
 
 
-animal = input('Favourite animal? ')
-print(f'I like {animal} too!')
+name = input('What name? ')
+print(f'The Amazing {name}')
