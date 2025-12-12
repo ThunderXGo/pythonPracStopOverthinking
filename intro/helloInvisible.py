@@ -1,4 +1,2 @@
-from turtle import *
-forward(100)
-left(90)
-forward(100)
+food = input("What food do you like?")
+print("So you like " + food + " huh?")
