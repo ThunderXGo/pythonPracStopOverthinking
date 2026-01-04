@@ -1,3 +1,5 @@
-mssg1 = "YOU"
+#Exercise 1
+#use python --version to check version
 
-print(f"testing, testing,\nam i talking to {mssg1}?")
+#Calculations with operand 3 and 4:
+print(3 + 4)
