@@ -18,7 +18,9 @@ print(f"floor division: {3 // 4} ")
 """
 
 #String testing
+"""
 print(f"Name: My name is dude")
 print(f"FName: My last name is man")
 print(f"Country: Headspace")
 print(f"Ehhh 30 day python gonna be a piece of cake")
+"""
