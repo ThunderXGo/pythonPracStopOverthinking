@@ -1,3 +1,4 @@
+import math
 #Exercise 1
 #1. use python --version to check version
 
@@ -51,3 +52,8 @@ print(f"Tuple: {type(("What", "is", "differenceBracket?"))} ")
 print(f"Set: {type({"basically", "same", "smack"})} ")
 print(f"Dictionary: {type(thisdict)} ")
 
+#2. Bruh find distance calc???
+x1 = 3
+x2 = 6
+y1 = 9
+y2 = 12
