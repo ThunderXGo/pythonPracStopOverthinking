@@ -32,3 +32,22 @@ print(type("ehh imma skip"))
 
 #Exercise 2
 #Jokes on you I did exercise 1 here in vs code already
+
+#Exercise 3
+#1. Come up with the types by yourself buddy
+aBigo = True
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(f"Int: {type(9)} ")
+print(f"Float: {type(3.6)} ")
+print(f"Complex: {type(3j+1)} ")
+print(f"String: {type("sigma")} ")
+print(f"Boolean: {type(aBigo)} ")
+print(f"List: {type(["take", "a", "breather"])} ")
+print(f"Tuple: {type(("What", "is", "differenceBracket?"))} ")
+print(f"Set: {type({"basically", "same", "smack"})} ")
+print(f"Dictionary: {type(thisdict)} ")
+
