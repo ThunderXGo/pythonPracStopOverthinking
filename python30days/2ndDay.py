@@ -40,4 +40,5 @@ numFloorDiv = num1 // num2
 pie = math.pi
 radius = int(input("radius of circle? "))
 areaOfCirc = pie * (radius**2)
-print(areaOfCirc)
+circumferenceOfCirc = 2 * pie * radius
+print(f"Area of a circle: {areaOfCirc} \nCircumference of a circle: {circumferenceOfCirc}")
