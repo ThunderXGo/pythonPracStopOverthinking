@@ -6,6 +6,10 @@
 firstName = "John"
 lastName = " Doe"
 fullName = firstName + lastName
-print(fullName)
+country = "Spira"
+city = "Bevelle " #(something like that)
+age = 33 #(reference to GOTY 2025???)
+year = 2026 #i mean i guess?
+
 
 
