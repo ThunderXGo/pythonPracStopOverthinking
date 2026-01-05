@@ -57,3 +57,6 @@ x1 = 3
 x2 = 6
 y1 = 9
 y2 = 12
+d = ((x2-x1)**2)+((y2-y1)**2)
+trueD = math.sqrt(d)
+print(trueD)
