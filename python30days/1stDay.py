@@ -36,6 +36,7 @@ print(type("ehh imma skip"))
 
 #Exercise 3
 #1. Come up with the types by yourself buddy
+"""
 aBigo = True
 thisdict = {
   "brand": "Ford",
@@ -51,6 +52,7 @@ print(f"List: {type(["take", "a", "breather"])} ")
 print(f"Tuple: {type(("What", "is", "differenceBracket?"))} ")
 print(f"Set: {type({"basically", "same", "smack"})} ")
 print(f"Dictionary: {type(thisdict)} ")
+"""
 
 #2. Bruh find distance calc???
 x1 = 3
