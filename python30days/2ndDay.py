@@ -36,9 +36,16 @@ numDiv = num1 / num2
 numRemainder = num1 % num2
 numExp = num1 ** num2
 numFloorDiv = num1 // num2
-"""
+
 pie = math.pi
 radius = int(input("radius of circle? "))
 areaOfCirc = pie * (radius**2)
 circumferenceOfCirc = 2 * pie * radius
 print(f"Area of a circle: {areaOfCirc} \nCircumference of a circle: {circumferenceOfCirc}")
+
+YOURName = input("What is your name? ")
+YOURLName = input("What is your last name? ")
+YOURCountry = input("Where are you from? ")
+YOURAge = int(input("How old are you? "))
+"""
+#run help('keywords') to avoid conflictions with official terms
