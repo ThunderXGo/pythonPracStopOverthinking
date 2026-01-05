@@ -1,3 +1,4 @@
+import math
 #Exercise 2
 #im not gonna bother listing all subparts of a subpart as theres over 10 brochachos
 
@@ -21,6 +22,7 @@ print(multiVari, iGuess, workPls)
 """
 
 #2. more vari utilisation (math)
+"""
 myFirstName = "dude"
 myLastName = "man"
 print(f"letters in first name: {len(myFirstName)}")
@@ -34,5 +36,8 @@ numDiv = num1 / num2
 numRemainder = num1 % num2
 numExp = num1 ** num2
 numFloorDiv = num1 // num2
-
-
+"""
+pie = math.pi
+radius = int(input("radius of circle? "))
+areaOfCirc = pie * (radius**2)
+print(areaOfCirc)
