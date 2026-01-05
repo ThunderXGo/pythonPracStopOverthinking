@@ -10,6 +10,12 @@ country = "Spira"
 city = "Bevelle " #(something like that)
 age = 33 #(reference to GOTY 2025???)
 year = 2026 #i mean i guess?
+isMarried = False
+isTrue = True
+isLightOn = False
 
+person_info = "mysterious"
+print('Person information: ', person_info)
+print(f"{len(person_info)}")
 
 
