@@ -19,8 +19,10 @@ print(multiVari, iGuess, workPls)
 """
 
 #2. more vari utilisation (math)
-firstName = "dude"
-print("My real first name:", firstName)
-print(f"letters in first name: {len(firstName)}")
+myFirstName = "dude"
+myLastName = "man"
+print(f"letters in first name: {len(myFirstName)}")
+print(f"difference between f and l name: {len(myFirstName) - len(myLastName)} ")
+
 
 
