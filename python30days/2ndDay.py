@@ -1,8 +1,9 @@
 #Exercise 2
 #im not gonna bother listing all subparts of a subpart as theres over 10 brochachos
+
+
 #1. musta be variable setting
-
-
+"""
 firstName = "John"
 lastName = " Doe"
 fullName = firstName + lastName
@@ -13,9 +14,13 @@ year = 2026 #i mean i guess?
 isMarried = False
 isTrue = True
 isLightOn = False
+multiVari, iGuess, workPls = "yeeeHaaa", True, 3
+print(multiVari, iGuess, workPls)
+"""
 
-person_info = "mysterious"
-print('Person information: ', person_info)
-print(f"{len(person_info)}")
+#2. more vari utilisation (math)
+firstName = "dude"
+print("My real first name:", firstName)
+print(f"letters in first name: {len(firstName)}")
 
 
