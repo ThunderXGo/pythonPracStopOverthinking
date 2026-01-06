@@ -91,10 +91,19 @@ if floorMoment == convMoment: {
 else: {
     print("not quite they're not same")
 }
-"""
+
 typeA = type("10")
 typeB = type(10)
 if typeA == typeB: {
+    print("Same")
+}
+else: {
+    print("Different")
+}
+"""
+typeAb = type(int(9.8))
+typeBb = type(10)
+if typeAb == typeBb: {
     print("Same")
 }
 else: {
