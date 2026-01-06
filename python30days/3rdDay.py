@@ -31,7 +31,7 @@ areaOfCirc = pi * (r**2)
 circumferenceOfCirc = 2 * pi * r
 print(f"The area of circ is: {areaOfCirc}")
 print(f"The perimeter of rect is: {circumferenceOfCirc}")
-"""
+
 #the heck you mean calc x,y int and slope of y = 2x-2???
 xInt = (0 + 2) / 2 
 yInt = -2
@@ -43,3 +43,7 @@ m = (y2 - y1) / (x2 - x1)
 initialD = ((x2 - x1)**2) + ((y2 - y1)**2)
 d = math.sqrt(initialD)
 print(m - grad)
+"""
+x = -3
+y = x**2 + 6*x + 9
+print(y)
