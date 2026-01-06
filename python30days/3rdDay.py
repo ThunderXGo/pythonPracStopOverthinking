@@ -47,8 +47,15 @@ print(m - grad)
 x = -3
 y = x**2 + 6*x + 9
 print(y)
-"""
+
 pyLen = len("python")
 pyDrag = len("dragon")
 compLens = abs(pyLen - pyDrag)
 print(f"Difference between these two creatures (in letter length) is: {compLens}")
+"""
+if "on" in "python" and "on" in "dragon": {
+    print("on is within both")
+}
+else: {
+    print("on is not within both")
+}
