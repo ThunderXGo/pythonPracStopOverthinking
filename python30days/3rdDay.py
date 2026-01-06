@@ -43,7 +43,12 @@ m = (y2 - y1) / (x2 - x1)
 initialD = ((x2 - x1)**2) + ((y2 - y1)**2)
 d = math.sqrt(initialD)
 print(m - grad)
-"""
+
 x = -3
 y = x**2 + 6*x + 9
 print(y)
+"""
+pyLen = len("python")
+pyDrag = len("dragon")
+compLens = abs(pyLen - pyDrag)
+print(f"Difference between these two creatures (in letter length) is: {compLens}")
