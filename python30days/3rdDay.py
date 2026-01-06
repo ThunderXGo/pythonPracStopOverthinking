@@ -100,7 +100,7 @@ if typeA == typeB: {
 else: {
     print("Different")
 }
-"""
+
 typeAb = type(int(9.8))
 typeBb = type(10)
 if typeAb == typeBb: {
@@ -109,3 +109,8 @@ if typeAb == typeBb: {
 else: {
     print("Different")
 }
+"""
+Time = int(input("Enter hours you work: "))
+gil = int(input("Enter money you make per hour: "))
+gilPerHour = Time * gil
+print(f"You made {gilPerHour} this week")
