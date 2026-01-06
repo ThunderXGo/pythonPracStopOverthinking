@@ -68,7 +68,15 @@ if checkJarg in sentence: {
 else: {
     print("Jargon NOT in sentence")
 }
-"""
+
 whyJustWhy = float(len("python"))
 againWhy = str(whyJustWhy)
 print(type(againWhy))
+"""
+subjectNo = 3
+if subjectNo % 2 == 0: {
+    print(f"Your number: {subjectNo} IS even")
+}
+else: {
+    print(f"Your number: {subjectNo}, NOT even")
+}
