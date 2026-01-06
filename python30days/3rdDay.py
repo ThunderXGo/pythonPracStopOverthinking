@@ -109,8 +109,12 @@ if typeAb == typeBb: {
 else: {
     print("Different")
 }
-"""
+
 Time = int(input("Enter hours you work: "))
 gil = int(input("Enter money you make per hour: "))
 gilPerHour = Time * gil
 print(f"You made {gilPerHour} this week")
+"""
+year = int(input("Enter years you've lived: "))
+totalSec = year * 365 * 24 * 60 * 60
+print(f"You've lived for {totalSec} in total")
