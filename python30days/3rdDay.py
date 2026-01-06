@@ -80,7 +80,7 @@ if subjectNo % 2 == 0: {
 else: {
     print(f"Your number: {subjectNo}, NOT even")
 }
-"""
+
 floorMoment =  float(7 // 3)
 convMoment = int(7 // 3)
 print(floorMoment)
@@ -90,4 +90,13 @@ if floorMoment == convMoment: {
 }
 else: {
     print("not quite they're not same")
+}
+"""
+typeA = type("10")
+typeB = type(10)
+if typeA == typeB: {
+    print("Same")
+}
+else: {
+    print("Different")
 }
