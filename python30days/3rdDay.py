@@ -52,10 +52,19 @@ pyLen = len("python")
 pyDrag = len("dragon")
 compLens = abs(pyLen - pyDrag)
 print(f"Difference between these two creatures (in letter length) is: {compLens}")
-"""
+
 if "on" in "python" and "on" in "dragon": {
-    print("on is within both")
+    print("on IS within both")
 }
 else: {
-    print("on is not within both")
+    print("on NOT within both")
+}
+"""
+sentence = "I hope this course is not full of jargon"
+checkJarg = "jargon"
+if checkJarg in sentence: {
+    print("Jargon IS in sentence")
+}
+else: {
+    print("Jargon NOT in sentence")
 }
