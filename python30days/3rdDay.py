@@ -72,11 +72,22 @@ else: {
 whyJustWhy = float(len("python"))
 againWhy = str(whyJustWhy)
 print(type(againWhy))
-"""
+
 subjectNo = 3
 if subjectNo % 2 == 0: {
     print(f"Your number: {subjectNo} IS even")
 }
 else: {
     print(f"Your number: {subjectNo}, NOT even")
+}
+"""
+floorMoment =  float(7 // 3)
+convMoment = int(7 // 3)
+print(floorMoment)
+print(convMoment)
+if floorMoment == convMoment: {
+    print("facts, they're the same")
+}
+else: {
+    print("not quite they're not same")
 }
