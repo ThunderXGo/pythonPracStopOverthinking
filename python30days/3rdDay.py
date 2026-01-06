@@ -2,4 +2,5 @@
 
 #1. More variable and complex math i assume?
 age = 21
-print(age)
+height = 190.6
+print(type(height))
