@@ -52,14 +52,14 @@ pyLen = len("python")
 pyDrag = len("dragon")
 compLens = abs(pyLen - pyDrag)
 print(f"Difference between these two creatures (in letter length) is: {compLens}")
-
+#did 15 acidentally as well
 if "on" in "python" and "on" in "dragon": {
     print("on IS within both")
 }
 else: {
     print("on NOT within both")
 }
-"""
+
 sentence = "I hope this course is not full of jargon"
 checkJarg = "jargon"
 if checkJarg in sentence: {
@@ -68,3 +68,7 @@ if checkJarg in sentence: {
 else: {
     print("Jargon NOT in sentence")
 }
+"""
+whyJustWhy = float(len("python"))
+againWhy = str(whyJustWhy)
+print(type(againWhy))
