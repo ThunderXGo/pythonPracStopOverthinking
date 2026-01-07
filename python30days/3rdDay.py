@@ -119,8 +119,9 @@ year = int(input("Enter years you've lived: "))
 totalSec = year * 365 * 24 * 60 * 60
 print(f"You've lived for {totalSec} in total")
 """
-print(f"{1} {1} {1} {1} {1}")
-print(f"{2} {1} {2} {4} {8}")
-print(f"{3} {1} {3} {9} {27}")
-print(f"{4} {1} {4} {16} {64}")
-print(f"{5} {1} {5} {25} {125}")
+print(1, 1, 1, 1, 1)
+print(2, 1, 2, 4, 8)
+print(3, 1, 3, 9, 27)
+print(4, 1, 4, 16, 64)
+print(5, 1, 5, 25, 125)
+
