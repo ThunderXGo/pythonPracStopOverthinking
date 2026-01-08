@@ -9,11 +9,13 @@ index2 = ["Coding", " for", " all"]
 print(index2[0] + index2[1] + index2[2])
 """
 company = "Coding for All"
+"""
 print(company)
 print(len(company))
 print(str.upper(company))
 print(str.lower(company))
-
 print(str.capitalize(company))
 print(str.title(company))
 print(str.swapcase(company))
+"""
+print(company[7:])
