@@ -18,4 +18,7 @@ print(str.capitalize(company))
 print(str.title(company))
 print(str.swapcase(company))
 """
-print(company[7:])
+
+#[start:stop:step]
+sliced = company[7::1]
+print(sliced)
