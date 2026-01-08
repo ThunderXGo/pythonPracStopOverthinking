@@ -9,6 +9,7 @@ index2 = ["Coding", " for", " all"]
 print(index2[0] + index2[1] + index2[2])
 """
 company = "Coding for All"
+checkCom = "Coding"
 """
 print(company)
 print(len(company))
@@ -17,8 +18,15 @@ print(str.lower(company))
 print(str.capitalize(company))
 print(str.title(company))
 print(str.swapcase(company))
-"""
 
 #[start:stop:step]
 sliced = company[7::1]
 print(sliced)
+"""
+if checkCom in company: {
+    print("Its in")
+}
+else: {
+    print("Its NOT in")
+}
+
